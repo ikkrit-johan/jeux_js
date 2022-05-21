@@ -1,0 +1,48 @@
+#choices li, #answer li {
+    display: inline-block;
+    margin: 10px;
+}
+
+img {
+    width: 200px;
+    background: red;
+    border-radius: 10px;
+}
+
+.disabled {
+    opacity: .3;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    background: gray;
+    background: url(../img/back.jpg) 50% 50%;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 2rem;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
+
+#choices, #answer {
+    flex-grow: 1;
+}
+
+#score {
+    height: 100vh;
+    /* background: green; */
+}
+#choices {
+    /* background: blue; */
+}
+#answer {
+    /* background: red; */
+}
